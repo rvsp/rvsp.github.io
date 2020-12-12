@@ -27,6 +27,25 @@
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-2.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2RGS93X23P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2RGS93X23P');
+//   if (window.performance) {
+//             var timeSincePageLoad = Math.round(performance.now());
+//             gtag('event', 'timing_complete', {
+//                 'name': 'load',
+//                 'value': timeSincePageLoad,
+//                 'event_category': 'JS Dependencies'
+//             });
+//         }
+    </script>
+
     <style>
         a:hover {
             text-decoration: none;
@@ -706,25 +725,7 @@
         </div>
     </article>
 
-    <!--gtags-->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110185852-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-110185852-1');
-        if (window.performance) {
-            var timeSincePageLoad = Math.round(performance.now());
-            gtag('event', 'timing_complete', {
-                'name': 'load',
-                'value': timeSincePageLoad,
-                'event_category': 'JS Dependencies'
-            });
-        }
-    </script>
-    <!--gtas end-->
+
 
 </body>
 
